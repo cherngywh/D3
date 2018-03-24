@@ -1,0 +1,79 @@
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  background-image: url("/assets/css/stone.jpg");
+  padding-bottom: 150px;
+}
+
+.head {
+  padding-top: 20px;
+}
+
+.iframeContainer {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.chart {
+  max-width: 100%;
+  background-color: white;
+}
+
+.article {
+  background-image: url("/assets/css/paper.jpg");
+  font-size: 20px;
+  padding: 10px 50px 20px 50px;
+  border-radius: 30px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+  background-color: lightseagreen;
+  
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+  color: orange;
+}
+
+h1 {
+  color: darkcyan;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  color: navy;
+}
+
+ul { 
+  list-style-type: none; 
+}
+
+li {
+  color: darkcyan;
+}
+
+p {
+  color: navy;
+  font-size: 20px;
+}

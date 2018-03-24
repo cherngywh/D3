@@ -1,0 +1,84 @@
+/* Students:
+ * =========
+ * Add styling to your d3 chart with this file. */
+.chart::before {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    z-index: -1;
+    display: block;
+    width: 400px;
+    height: 300px;
+    content: " ";
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.axis-text {
+    font-family: sans-serif;
+    text-anchor: middle;
+}
+
+.active {
+    font-weight: bold;
+    fill: #000;
+    fill: lightgreen;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+}
+
+.inactive {
+    font-weight: bold;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+}
+
+.change {
+    font-weight: bold;
+    fill:lightgreen;
+}
+
+.unchange {
+    font-weight: bold;
+    fill: #000;
+}
+
+.inactive:hover {
+    fill: #e75480;
+    cursor: pointer;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+.circle:hover {
+    fill: orangered ;
+}
