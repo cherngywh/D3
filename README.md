@@ -14,7 +14,7 @@
 *- Specify the information using the  [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml)tool*<br/>
 *- Search for data on health risks using 2014 survey data from the [Behavioral Risk Factor Surveillance System](https://chronicdata.cdc.gov/Behavioral-Risk-Factors/BRFSS-2014-Overall/5ra3-ixqq), filter the Question data on the site before downloading a specified .csv.*<br/>
 *- Let's format the data for D3.*<br/>
-*- To make sure we have a solid trend, you need to test for correlation with Excel's =CORREL() function.*<br/>
+*- To make sure we have a solid trend,  test for correlation with Excel's =CORREL() function.*<br/>
 *- Save the file as data.csv and place it in the data folder.*
 
 **Step 2: Visualize the Data**
@@ -22,5 +22,5 @@
 *- Using the D3 techniques to create a scatter plot that represents each state with circle elements. Generate the chart in the d3.html displays the graphic just as we'd like it to, embed it in index.html with an iframe.*<br/>
 *- Include state abbreviations in the circles and create and situate the axes and labels to the left and bottom of the chart.*<br/>
 *- Include three demographics and three risks. Place additional labels in the scatter plot and give them click events so that users can decide which data to display. Animate the transitions for the circles' locations as well as the range of your axes.*<br/>
-*- Add tooltips to your circles and display each tooltip with the data that the user has selected. Use the d3-tip.js plugin developed by [Justin Palmer](https://github.com/Caged).*<br/>
+*- Add tooltips to the circles and display each tooltip with the data that the user has selected. Use the d3-tip.js plugin developed by [Justin Palmer](https://github.com/Caged).*<br/>
 *- Add responsive function to optimize the scatter plot so that its data is accessible to all users.*
