@@ -11,7 +11,7 @@
 
 **Step 1: Find the Data**
 
-*- Specify the information using the  [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml)tool*<br/>
+*- Specify the information using the  [American FactFinder](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml) tool*<br/>
 *- Search for data on health risks using 2014 survey data from the [Behavioral Risk Factor Surveillance System](https://chronicdata.cdc.gov/Behavioral-Risk-Factors/BRFSS-2014-Overall/5ra3-ixqq), filter the Question data on the site before downloading a specified .csv.*<br/>
 *- Let's format the data for D3.*<br/>
 *- To make sure we have a solid trend,  test for correlation with Excel's =CORREL() function.*<br/>
